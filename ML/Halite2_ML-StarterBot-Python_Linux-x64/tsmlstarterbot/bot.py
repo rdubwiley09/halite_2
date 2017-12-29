@@ -4,8 +4,8 @@ import os
 import time
 
 import hlt
-from tsmlstarterbot.common import *
-from tsmlstarterbot.neural_net import NeuralNet
+from pytorch_bot.common import *
+from pytorch_bot.neural_net import NeuralNet
 
 class Bot:
     def __init__(self, location, name):
